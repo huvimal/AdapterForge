@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "train": 512,
+    "validation": 64,
+    "test": 64
+  },
+  "group_counts": {
+    "train": 8,
+    "validation": 2,
+    "test": 2
+  },
+  "split_hashes": {
+    "train": "5ee8cf47ea302da45d83e43b89fa2e2dde4cc62dd600dad624f737d57d50f349",
+    "validation": "479fa86e9633ea4bdc7d81720f27c42780ac3332c4b06a21f01218af9f2dd1d6",
+    "test": "50da64666bc327cb0f1422c9676bf274a960695538425959ec4dc74632689565"
+  },
+  "dataset_hash": "221beff66cd6dc7a7fd3fea9aaec121c55bf15fe54476919d406f01b09fb09b9",
+  "scope": "Self-authored synthetic English templates. Template groups and order IDs held out; task vocabulary is shared."
+}
