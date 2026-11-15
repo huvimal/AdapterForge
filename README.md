@@ -50,7 +50,7 @@ Train and validation losses are logged each epoch. Only minimum validation compl
 
 The evaluator compares the same examples under the base model with adapters disabled, the trained adapter enabled, and an explicit handcrafted rule baseline. It reports raw-JSON validity, schema validity, field accuracy, exact match, and non-null field micro-F1. Invalid schema counts as a missing prediction for all fields. Batched generation timings are not request-latency or load-test measurements.
 
-See [DATA_CARD.md](DATA_CARD.md) and the [Vietnamese usage guide](HUONG_DAN.md). Synthetic held-out wrapper templates and order IDs do not establish independent real-customer generalization. Preserve failures and include the rule reference even if it outperforms the trained model.
+See [DATA_CARD.md](DATA_CARD.md). Synthetic held-out wrapper templates and order IDs do not establish independent real-customer generalization. Preserve failures and include the rule reference even if it outperforms the trained model.
 
 ## Local UI and API
 
